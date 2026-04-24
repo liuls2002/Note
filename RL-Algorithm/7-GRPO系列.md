@@ -1,6 +1,6 @@
 # GRPO 系列：Group Relative Policy Optimization 详解
 
-![GRPO](imgs/GRPO.png)
+![GRPO](./imgs/GRPO.png)
 
 GRPO（Group Relative Policy Optimization，组相对策略优化）是 DeepSeekMath 中提出、并在 DeepSeek-R1 系列中被广泛使用的一类 LLM 强化学习算法。它可以看作 PPO 在大语言模型推理训练场景下的轻量化改造：保留 PPO 的 **重要性采样比率 + clipping + KL 约束**，但去掉 Critic / value model，用同一个 prompt 下多条回答的组内相对奖励来估计优势。
 

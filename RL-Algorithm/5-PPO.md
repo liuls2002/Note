@@ -158,10 +158,9 @@ $$
 
 这个目标的关键是外层的 $\min$。它不是简单地把 $r_t$ 裁剪后再优化，而是在「原始目标」与「裁剪目标」之间取较小者，从而构造一个保守的下界式目标：当策略更新朝着过于激进的方向走时，目标不再继续奖励这种变化。
 
-分情况看更清楚:
-<div style="text-align: center;">
-  <img src="imgs/PPO_clip.png" alt="PPO clip" style="max-width: 70%;">
-</div>
+分情况看更清楚：
+
+![PPO clip](./imgs/PPO_clip.png)
 
 （1）当 $\hat{A}_t > 0$
 
@@ -384,7 +383,7 @@ $$
 
 ## RLHF 中的 PPO
 
-![RLHF_PPO](imgs/RLHF_PPO.png)
+![RLHF_PPO](./imgs/RLHF_PPO.png)
 
 RLHF（Reinforcement Learning from Human Feedback）通常包含三步：
 
