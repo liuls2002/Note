@@ -3,11 +3,11 @@ layout: home
 
 hero:
   name: Liuls Notes
-  text: 强化学习与工程学习笔记
+  text: 个人学习笔记
   tagline: 把零散学习整理成可复用的知识地图。
   actions:
     - theme: brand
-      text: 开始阅读
+      text: RL快速开始
       link: /RL-Algorithm/0-基础
     - theme: alt
       text: Git 命令
