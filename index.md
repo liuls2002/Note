@@ -9,7 +9,7 @@ hero:
     - theme: brand
       text: RL快速开始
       link: /RL-Algorithm/0-基础
-    - theme: alt
+    - theme: Agentic RL framework
       text: Git 命令
       link: /Other/git命令
 
@@ -20,9 +20,6 @@ features:
   - title: Agentic RL framework
     details: Agentic RL的框架分析。
     link: /Agentic-RL-framework/agentic-rl
-  - title: 工具与工程
-    details: 记录 Git、VS Code 等日常开发工具的使用方法。
-    link: /Other/git命令
   - title: 持续整理
     details: 以后可以继续接入论文阅读、项目复盘、课程笔记和代码实验。
 ---
@@ -40,8 +37,9 @@ features:
 7. [DPO](/RL-Algorithm/6-DPO)
 8. [GRPO 系列](/RL-Algorithm/7-GRPO系列)
 
-### Agentic RL system
+### Agentic RL framework
 1. [从 SFT、RLHF、RLVR 到 Agentic RL](/Agentic-RL-framework/agentic-rl)
+2. [slime源码详解](/Agentic-RL-framework/slime)
 
 ### 工具
 
