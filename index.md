@@ -37,6 +37,10 @@ features:
 7. [DPO](/RL-Algorithm/6-DPO)
 8. [GRPO 系列](/RL-Algorithm/7-GRPO系列)
 
+### 大模型基础
+1. [mHC](/LLM-Algorithm/mHC)
+
+
 ### Agentic RL framework
 1. [从 SFT、RLHF、RLVR 到 Agentic RL](/Agentic-RL-framework/agentic-rl)
 2. [slime源码详解](/Agentic-RL-framework/slime)
